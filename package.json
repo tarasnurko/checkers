@@ -1,0 +1,24 @@
+{
+  "name": "checkers",
+  "version": "1.0.0",
+  "description": "Simple socket.io two player online checkers game.",
+  "main": "public/main.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "watch:js": "parcel watch public/index.js --no-cache --no-source-maps",
+    "build:js": "parcel build public/index.js --no-cache --no-source-maps"
+  },
+  "author": "Taras Nurko",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.6.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  }
+}
