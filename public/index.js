@@ -10,7 +10,7 @@ import { Game, Cell, Figure, Board } from "./models.js";
 const socket = io();
 
 const root = document.getElementById("root");
-const url = "http://127.0.0.1:3000/";
+const url = window.location.origin;
 const hashCode = window.location.hash.substring(1);
 let roomCode;
 

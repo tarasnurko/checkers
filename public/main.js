@@ -494,7 +494,7 @@ class $fc689fb0b2557ee7$export$dc537a3a3893548e {
 
 const $2d2a4bce24eb15d9$var$socket = io();
 const $2d2a4bce24eb15d9$var$root = document.getElementById("root");
-const $2d2a4bce24eb15d9$var$url = "http://127.0.0.1:3000/";
+const $2d2a4bce24eb15d9$var$url = window.location.origin;
 const $2d2a4bce24eb15d9$var$hashCode = window.location.hash.substring(1);
 let $2d2a4bce24eb15d9$var$roomCode;
 $2d2a4bce24eb15d9$var$main();
