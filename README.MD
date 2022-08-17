@@ -1,6 +1,7 @@
 # Checkers
 
 Simple socket.io two player online checkers game.
+
 <a href="https://checkers-play.herokuapp.com/">Try checkers with friend</a>
 
 ## Running locally
