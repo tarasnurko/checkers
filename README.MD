@@ -16,8 +16,8 @@ npm install
 
 installs dependencies
 
-```
-bash npm start
+```bash 
+npm start
 ```
 
 will run a development server with the component's demo app at http://localhost:3000
