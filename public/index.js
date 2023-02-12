@@ -5,6 +5,8 @@ import {
   gamePageHTML,
 } from "./pages.js";
 
+import { io } from "./socketio";
+
 import { Game, Cell, Figure, Board } from "./models.js";
 
 const socket = io();
