@@ -2,6 +2,8 @@
 
 Simple socket.io two player online checkers game.
 
+<a href="https://checkers-play.herokuapp.com/">Try checkers with friend</a>
+
 ## Running locally
 
 ```bash
@@ -14,8 +16,8 @@ npm install
 
 installs dependencies
 
-```
-bash npm start
+```bash 
+npm start
 ```
 
 will run a development server with the component's demo app at http://localhost:3000
